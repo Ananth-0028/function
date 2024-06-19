@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+
+<body>
+
+
+    <script>
+        //function declared
+
+
+        function abc() {
+            console.log("hello dude")
+       }
+      abc()
+
+
+      // function experssion
+      let students=[1,2,3,4,5,6]
+
+      const student=function abc (val) {
+        return  val;
+      };
+      abc();
+      console.log(student(5))
+
+
+
+     // arrow function
+
+
+     
+
+
+     
+     let mark1=[45,55,66,77,88,99,]
+
+    mark1.forEach = ((x) =>{
+        const forMethod= x + 50
+        console.log(forMethod);
+     })
+
+
+     //map method
+
+     let mark2=[45,55,66,77,88,99,]
+
+     const mapMethod=mark2.map((val)=>
+     {
+        return val -2
+
+     })
+     console.log(mapMethod)
+
+
+     const numbers =[1,2,3,4,5,6,7,8,9,10,112,14,16,21,23,25,26]
+
+
+     const filterMethod=numbers.filter((val)=>{
+        return val %2 ==0
+     })
+     console.log(filterMethod )
+
+
+
+     const numbers1 =[1,2,3,4,5,6,7,8,9,10,112,14,16,21,23,25,26]
+
+
+     const filterMethod1=numbers.filter((val)=>{
+        return val %2  !==0
+     })
+     console.log(filterMethod1 )
+
+     const numbers2 =[1,2,3,4,5,6,7,8,9,10,112,14,16,21,23,25,26]
+
+
+const reduceMethod1=numbers2.reduce((a,b)=>{
+   return a+b
+})
+console.log(reduceMethod1 )
+
+
+
+const numbers3 =[1,2,3,4,5,6,7,8,9,10,112,14,16,21,23,25,26]
+
+
+const reduceMethod3=numbers2.sort((a,b)=>{
+   return a+b
+})
+console.log(reduceMethod3 )
+
+
+
+
+const numbers4 =[1,2,3,4,5,6,7,8,9,10,112,14,16,21,23,25,26]
+
+
+const reduceMethod4=numbers4.reverse((a,b)=>{
+   return a+b
+})
+console.log(reduceMethod4 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
